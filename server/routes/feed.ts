@@ -1,4 +1,4 @@
-import { Router, Response, Request } from 'express';
+import {Router, Response, Request} from 'express';
 import * as uuid from 'node-uuid';
 
 const feedRouter: Router = Router();
@@ -35,4 +35,4 @@ feedRouter.delete('/:id', (request: Request, response: Response) => {
 
 });
 
-export { feedRouter }
+export {feedRouter}
